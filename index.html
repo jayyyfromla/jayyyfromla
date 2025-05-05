@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jayyyfromla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video autoplay loop muted id="bg-video">
+    <source src="media/leftygunplay.mp4" type="video/mp4">
+  </video>
+
+  <div id="player">
+    <img src="img/jayyy.png" alt="jayyyfromla" width="150">
+    <h1>🎶You ain't fuckin wit da westcoast🔫</h1>
+    <div id="now-playing">START BUMPING</div>
+    <button onclick="playSong()">🔊PLAY</button>
+    <button onclick="pauseSong()">🤫PAUSE</button>
+    <button onclick="nextSong()">👉🏽NEXT</button>
+    <button onclick="toggleDarkMode()">🏁Dark Mode</button>
+    <ul id="song-list"></ul> <!-- New: clickable playlist -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
